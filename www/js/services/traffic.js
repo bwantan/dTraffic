@@ -2,7 +2,7 @@ angular.module('app.services').service('traffic', function ($http, $q, $localsto
     var cameraImageSet = {};
     var groupInfo = undefined;
     var dataRefresh = false;
-    var api = "http://demo.boonwan.com/dTraffic/api";
+    var api = "/api";
     var lta = ""
     return (
     {
