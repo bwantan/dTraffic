@@ -1,0 +1,23 @@
+{
+  "name": "dTraffic",
+  "app_id": "",
+  "proxies": [
+      {
+        "path": "/lta",
+        "proxyUrl": "http://datamall.mytransport.sg/ltaodataservice.svc"
+      },
+      {
+          "path": "/api",
+          "proxyUrl": "http://demo.boonwan.com/dTraffic/api"
+      }
+    ],
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
+

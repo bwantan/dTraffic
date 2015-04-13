@@ -1,0 +1,37 @@
+<ion-side-menus enable-menu-with-back-views="false" ng-init="init()" ng-controller="menuCtrl">
+    <ion-side-menu-content drag-content="false">
+        <ion-footer-bar class="bar-positive">
+            <button class="button button-icon button-clear ion-ios-keypad-outline">
+            </button>
+            <h1 class="title"></h1>
+            <button class="button button-icon button-clear ion-android-search">
+            </button>
+        </ion-footer-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <!--<ion-side-menu side="left" width="70" ng-hide="hideLeft">-->
+        <!--<ion-content>-->
+            <!--<div class="left_menu">-->
+                <!--<button nav-clear menu-close class="button icon ion-ios-information button-icon positive"></button>-->
+                <!--<button nav-clear menu-close class="button icon ion-ios-gear button-icon positive"></button>-->
+                <!--<button nav-clear menu-close class="button icon ion-ios-clock button-icon positive"></button>-->
+                <!--<button nav-clear menu-close class="button icon ion-ios-home button-icon positive"></button>-->
+            <!--</div>-->
+        <!--</ion-content>-->
+    <!--</ion-side-menu>-->
+
+    <!--<ion-side-menu side="right" ng-hide="hideRight">-->
+        <!--<ion-content>-->
+            <!--<div class="right_menu_title">-->
+                <!--Highways/Roads-->
+            <!--</div>-->
+            <!--<ion-list>-->
+                <!--<ion-item ng-repeat="location in locations | orderBy:'group_id':true" nav-clear menu-close on-tap="groupSelected(location.group_id)" ">-->
+                <!--<font style="font-weight:bold ;">{{ location.name }}</font>-->
+                <!--</ion-item>-->
+            <!--</ion-list>-->
+
+        <!--</ion-content>-->
+    <!--</ion-side-menu>-->
+</ion-side-menus>

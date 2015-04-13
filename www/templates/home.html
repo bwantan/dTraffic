@@ -1,0 +1,12 @@
+<ion-view view-title="{{home.title}}" ng-init="init()" ng-controller="homeCtrl">
+    <ion-content>
+        <div ng-class="full_map ? 'map_full' : 'map_half'" id="map_canvas">
+            <div  ng-class="full_map ? 'map_menu_full' : 'map_menu_full'">
+                <button ng-class="full_map ? 'button icon ion-refresh button-icon positive' : 'hide_item'" on-tap="showTrafficCamera()"></button>
+            </div>
+        </div>
+        <div ng-class="full_map ? 'content_full' : 'content_half'" on-swipe-down="closeCamera()">
+            <ng-include src="'templates/traffic.html'" class="slider"></ng-include>
+        </div>
+    </ion-content>
+</ion-view>

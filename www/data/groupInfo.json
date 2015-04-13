@@ -1,0 +1,301 @@
+{
+  "AYE": {
+    "group_id": "AYE",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "AYE",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 4710
+      },
+      {
+        "id": 4708
+      },
+      {
+        "id": 4706
+      },
+      {
+        "id": 4701
+      },
+      {
+        "id": 4704
+      },
+      {
+        "id": 4702
+      }
+    ]
+  },
+  "CTE": {
+    "group_id": "CTE",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "CTE",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 1705
+      },
+      {
+        "id": 1702
+      },
+      {
+        "id": 1703
+      },
+      {
+        "id": 1701
+      },
+      {
+        "id": 1701
+      }
+    ]
+  },
+  "ECP": {
+    "group_id": "ECP",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "ECP",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 3798
+      },
+      {
+        "id": 1001
+      },
+      {
+        "id": 3797
+      },
+      {
+        "id": 3796
+      },
+      {
+        "id": 3795
+      },
+      {
+        "id": 3793
+      }
+    ]
+  },
+  "KJE": {
+    "group_id": "KJE",
+    "zoom": 12,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "KJE",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 8701
+      }
+    ]
+  },
+  "MCE": {
+    "group_id": "MCE",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "MCE",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 1503
+      },
+      {
+        "id": 1502
+      },
+      {
+        "id": 1505
+      },
+      {
+        "id": 1504
+      }
+    ]
+  },
+  "SLE": {
+    "group_id": "SLE",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "SLE",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 9701
+      },
+      {
+        "id": 7798
+      }
+    ]
+  },
+  "KPE": {
+    "group_id": "KPE",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "KPE",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 1003
+      },
+      {
+        "id": 1004
+      },
+      {
+        "id": 1006
+      },
+      {
+        "id": 1005
+      }
+    ]
+  },
+  "BKE": {
+    "group_id": "BKE",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "BKE",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 9703
+      },
+      {
+        "id": 2705
+      },
+      {
+        "id": 2703
+      }
+    ]
+  },
+  "WCP": {
+    "group_id": "WCP",
+    "zoom": 13,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": " Woodlands Checkpoint",
+    "bearing": 20,
+    "camera": [
+      {
+        "id": 2701
+      },
+      {
+        "id": 2702
+      },
+      {
+        "id": 2704
+      }
+    ]
+  },
+  "TCP": {
+    "group_id": "TCP",
+    "zoom": 12,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": " Tuas Checkpoint",
+    "bearing": 20,
+    "camera": [
+      {
+        "id": 4703
+      },
+      {
+        "id": 4713
+      },
+      {
+        "id": 4712
+      }
+    ]
+  },
+  "TPE": {
+    "group_id": "TPE",
+    "zoom": 12,
+    "latitude": "1.36064582921514",
+    "longitude":"103.616695549129",
+    "name": "TPE",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 7796
+      },
+      {
+        "id": 7791
+      }
+    ]
+  },
+  "STS": {
+    "group_id": "STS",
+    "zoom": 14,
+    "latitude": "1.25999999687405",
+    "longitude":"103.823611110166",
+    "name": "Sentosa Gateway",
+    "bearing":20,
+    "camera": [
+      {
+        "id": 4799
+      },
+      {
+        "id": 4798
+      }
+    ]
+  },
+  "PIEW": {
+    "group_id": "PIEW",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "PIE West",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 6708
+      },
+      {
+        "id": 6706
+      },
+      {
+        "id": 6705
+      },
+      {
+        "id": 6704
+      },
+      {
+        "id": 6703
+      },
+      {
+        "id": 6701
+      },
+      {
+        "id": 5799
+      }
+    ]
+  },
+  "PIEE": {
+    "group_id": "PIEE",
+    "zoom": 11,
+    "latitude": "1.44958853559936",
+    "longitude":"103.769311040849",
+    "name": "PIE East",
+    "bearing": 0,
+    "camera": [
+      {
+        "id": 5798
+      },
+      {
+        "id": 1002
+      },
+      {
+        "id": 5797
+      },
+      {
+        "id": 5795
+      },
+      {
+        "id": 5794
+      }
+    ]
+  }
+}

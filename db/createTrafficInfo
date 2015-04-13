@@ -1,0 +1,31 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `createTrafficInfo`(
+in in_camera_id INT(11),
+in in_latitude varchar(50) ,
+in in_longitude varchar(50),
+in in_image_url varchar(1000),
+in in_image blob,
+in in_created_date varchar(45)
+)
+BEGIN
+	declare var_summary varchar(100); 
+    declare var_group_id int(11);
+    select summary, group_id into var_summary, var_group_id from camera_location where camera_id = in_camera_id;
+    
+	if exists (select camera_id from Traffic_Camera where camera_id = in_camera_id) then
+    begin
+		update Traffic_Camera set 
+        image_url = in_image_url,
+        image = in_image,
+        created_date = in_created_date,
+        summary = var_summary,
+        group_id = var_group_id
+        where camera_id = in_camera_id;
+    end;
+    else
+    begin
+		insert into Traffic_Camera (camera_id, latitude, longitude, image_url,
+		image, created_date, summary, group_id) values 
+			(in_camera_id, in_latitude, in_longitude, in_image_url, in_image, in_created_date, var_summary, var_group_id);
+    end;
+    end if;
+END

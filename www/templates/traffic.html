@@ -1,0 +1,16 @@
+<div ng-init="init()" ng-controller="trafficCtrl">
+    <ion-slide-box show-pager="true" auto-play="false"
+                   on-slide-changed="slideHasChanged($index)">
+        <ion-slide ng-repeat="entry in entries">
+            <img ng-cache data-ng-src="{{entry.imageUrl}}" style="width:100%;height:100%;padding:1px">
+            <div class="date_caption">
+                <i ng-bind="requestDate | date:'MMM d, y h:mma'"></i>
+            </div>
+            <!--<div class="pager_caption">-->
+
+            <!--</div>-->
+            </img>
+
+        </ion-slide>
+    </ion-slide-box>
+</div>
