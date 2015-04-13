@@ -3,7 +3,8 @@ angular.module('app.services').service('traffic', function ($http, $q, $localsto
     var groupInfo = undefined;
     var dataRefresh = false;
     var api = "/api";
-    var lta = "/ltaapi"
+    var lta = ""
+
     return (
     {
         getLocalCameraInfo:getLocalCameraInfo,
